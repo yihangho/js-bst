@@ -50,6 +50,10 @@ function BST()
 		}
 		return undefined;
 	};
+	this.size = function()
+	{
+		return container.length;
+	}
 }
 
 function BSTItem(key, val)
